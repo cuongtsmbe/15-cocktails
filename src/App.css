@@ -1,0 +1,267 @@
+button{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+.App{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .App-header{
+  height: 50px;
+  width:100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App .App-header .header-center{
+  width:60%;
+  height:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.App .App-header .header-center p{
+  font-size: 14px;
+   cursor: pointer;
+}
+
+
+.App .App-header .header-center .Home-about{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: row;
+  height:100%;
+  width:150px;
+}
+.App .App-header .header-center .Home-about  p{
+  margin:0px 8px;
+  font-weight: bold;
+  font-size: 11px;
+  cursor: pointer;
+
+}
+
+
+.App .container-body {
+  width:100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding-top:30px;
+}
+.App .container-body .Container-Search{
+  width:500px;
+  height:80px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.App .container-body .Container-Search .label-item{
+  font-size: 13px;
+  color:gray;
+  font-weight: bold;
+  padding:10px 0px;
+  width:90%;
+}
+.App .container-body .Container-Search .search-input{
+  width:90%;
+  height:23px;
+  border: 0.5px solid gray;
+  background-color: #bee2ff2e;
+}
+
+.App .container-Products{
+  height:auto;
+  width:100%;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin:20px 0px;
+}
+
+.App .container-Products .label-cocktails{
+  font-size: 13px;
+  font-weight: bold;
+  padding:10px;
+
+}
+
+.App .container-Products .ListProducts{
+  width:645px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding:10px;
+}
+
+.App .container-Products .ListProducts .mess{
+  width:100%;
+  justify-content: center;;
+  font-size: 12px;
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+}
+
+.App .container-Products .ListProducts .Item{
+   height:auto;
+   width:200px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-left:10px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+   box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+
+}
+
+.App .container-Products .ListProducts .Item .image-item{
+  width:100%;
+  height: 150px;
+}
+
+.App .container-Products .ListProducts .Item .image-item img{
+  width:100%;
+  height: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+.App .container-Products .ListProducts .Item .title-item,.category-item,.Material-item,.detailsButton-item{
+  width:100%;
+  padding:3px 0px;
+
+}
+
+.App .container-Products .ListProducts .Item .title-item label{
+   font-size:13px;
+   font-weight: bold;
+   color:gray;
+  padding: 0px 5px;
+
+}
+
+.App .container-Products .ListProducts .Item .category-item label{
+   font-size:11px;
+   font-weight: bold;
+   color:#8080808c;
+     padding: 0px 5px;
+}
+.App .container-Products .ListProducts .Item .Material-item label{
+   font-size:12px;
+   font-weight: bold;
+   color:#b7abf7;
+     padding: 0px 5px;
+}
+.App .container-Products .ListProducts .Item .detailsButton-item button{
+  width:70px;
+  height:30px;
+  font-size: 13px;
+  font-weight: bold;
+  border:0.5px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bee2ff2e;
+  color:gray;
+  margin:5px 5px;
+  margin-bottom: 20px;
+}
+
+/*details page*/
+
+.App .content-details{
+  width: 800px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .content-details .loading{
+   font-size: 12px;
+   font-weight: bold;
+   color: gray;
+}
+
+.App .content-details .backhome{
+    width:100px;
+    height: 30px;
+    border: 0.5px solid gray;
+    background-color: #a2b9cc54;
+    color: #095a0f94;
+    font-size: 11px;
+    font-weight: bold;
+     display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.App .content-details .title-details{
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.App .content-details .details{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+}
+.App .content-details .details img{
+    height: 80%;
+    margin-right: 60px;
+    width: 320px;
+}
+.App .content-details .details .info-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60%;
+}
+.App .content-details .details .info-details label{
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+}
+.App .content-details .details .info-details label span{
+  color: green;
+  background-color: #edfff0;
+  padding: 2px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.App .about {
+  width: 500px;
+  height:200px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .about .AboutTitle{
+   font-size: 14px;
+   font-weight: bold;
+}
+.App .about .AboutContent{
+  font-size: 12px;
+}
+.App .p-not-found{
+  font-size: 13px;
+}

@@ -1,0 +1,11 @@
+import AboutContent from './../components/AboutContent';
+import Header from './../components/Header';
+export default function About(){
+	return (
+		<>
+			<Header/>
+			<AboutContent />
+		</>
+		);
+}
+
